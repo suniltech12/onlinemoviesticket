@@ -1,0 +1,112 @@
+.loginForm{
+    height: 70vh;
+    width: 70vh;
+}
+
+.sliderbar{
+ 
+    height: 70vh;
+    background-repeat: no-repeat;
+    /* background:linear-gradient(to right,#635dc0,#3027ae); */
+    background: url("https://i.postimg.cc/GpCr1ZC0/trolly2.png");
+    width: 50%;
+}
+.sliderbar > img {
+
+    width: 100%;
+    position: "centre";
+    padding-top: 9vmax;
+    height: 12vmax;
+   border-radius: 20px;
+   
+  
+   
+}
+.heading1{
+    color:black;
+    font-weight: "600px";
+    padding-top: 8vmax;
+    text-align: center;
+
+}
+
+.heading2{
+    color:tomato;
+    font-weight: "600";
+    text-align: center;
+}
+
+
+.headerbar{
+   padding: 45px 35px; 
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+   margin-top: 10px;
+   }
+   
+   .headingtext{
+       padding-top: 20px;
+       color: #878787;
+       font-size: 10px;
+       text-align: center;
+   }
+   .loginButton{
+     margin-top: 20px;
+     text-transform: none;
+     background-color: green;
+     border-radius: 0;
+       padding: 1vmax;
+       transition: all 0.5s;
+       width: 15vmax;
+       font: 500 1vmax "Roboto";
+       cursor: pointer;
+       margin-left: 1vmax;
+
+   }
+   .loginButton:hover{
+    background-color: rgba(255,255,255,0);
+    color: black;
+    transition: all 0.5s;
+}
+   .or{
+       text-align: center;
+       padding-top: 20px;
+       color: #878787;
+       font-size: 12px;
+   }
+
+   .regsiter{
+       padding-top: 20px;
+       text-align: center;
+       margin-top: auto;
+       color: #2874fe;
+       font-weight: "600";
+       cursor: pointer;
+   }
+ 
+   .request{
+       margin-top: 20px;
+       background-color: tomato;
+       /* border: 10px solid w; */
+       border-radius: 0;
+       padding: 1vmax;
+       transition: all 0.5s;
+       width: 15vmax;
+       font: 500 1vmax "Roboto";
+       cursor: pointer;
+       margin-left: 1vmax;
+       
+   }
+
+   .request:hover{
+    background-color: rgba(255,255,255,0);
+    color:black;
+    transition: all 0.5s;
+}
+
+
+.error{
+    color: red;
+    font-size: 10px;
+}

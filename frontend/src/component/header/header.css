@@ -1,0 +1,135 @@
+.header{
+    background-color:black;
+    height: 70px;
+}
+.imagelogo{
+    height: 70px;
+    cursor: pointer;
+}
+
+.search{
+    border-radius:10px;
+    color: white;
+    background-color: #fff;
+    margin-left: 25vmax;
+    width: 30%;
+    display: flex;
+}
+.inputclass{
+    color:white;
+    padding-left: 9vmax;
+}
+
+.searchIcon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color: black;
+     padding-left: 10vmax;
+     margin-top: 5px;
+}
+.buttonheader{
+    margin-left: auto;
+}
+
+.login{
+    
+    text-transform: none;
+    border-radius: 3px;
+    padding: 5px 40px;
+    background-color: gray;
+}
+
+.childHeader{
+    /* background-color: gray; */
+    height: 50px;
+    width: 100%;
+    padding-top: 5vmax;
+    text-align: center;
+    display:flex;
+    background: rgb(34, 37, 57);
+    color: white;
+    
+}
+
+.home{
+    margin-left: 30vmax;
+    margin-top: 5px;
+    height: 80%;
+    /* background-color:gray; */
+    width: 90px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-transform: none;
+    background: rgb(34, 37, 57);
+}
+.home:hover{
+    background-color:tomato;
+    color: black;
+    transition: all 0.5s;
+}
+.texthome{
+    padding-top: 8px;
+}
+.Movies{
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 80%;
+    /* background-color:gray; */
+    width: 90px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-transform: none;
+    background: rgb(34, 37, 57);
+}
+.Movies:hover{
+    background-color:tomato;
+    color: black;
+    transition: all 0.5s;
+}
+.textMovies{
+    padding-top: 8px;
+}
+.Showing{
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 80%;
+    /* background-color:gray; */
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-transform: none;
+    background: rgb(34, 37, 57);
+}
+.Showing:hover{
+    background-color:tomato;
+    color: black;
+    transition: all 0.5s;
+}
+.textShowing{
+    padding-top: 8px;
+}
+.Coming{
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 80%;
+    /* background-color:gray; */
+    width: 110px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-transform: none;
+    background: rgb(34, 37, 57);
+}
+.Coming:hover{
+    background-color:tomato;
+    color: black;
+    transition: all 0.5s;
+}
+.textComing{
+    padding-top: 8px;
+}
